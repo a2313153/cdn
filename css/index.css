@@ -1,0 +1,345 @@
+*/
+div#index2_slider {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+div.slider_container {
+  background: #fff;
+  height: 340px;
+  position: relative;
+}
+
+div.slider_footer {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  height: 40px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  display: none;
+}
+
+/*----- ページネーション -----*/
+div.slider_pagination {
+  display: inline-block;
+  padding: 15px 0;
+}
+
+div.slider_pagination a {
+  display: inline-block;
+  width: 10px;
+  height: 0;
+  padding-top: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+  background: #ddd;
+  margin: 0 4px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+div.slider_pagination a.activeSlide,
+div.slider_pagination a:hover {
+  background: #4baef3;
+}
+
+/*----- 進む戻るボタン -----*/
+div.slider_prev,
+div.slider_next {
+  background: #aaa;
+  width: 80px;
+  height: 24px;
+  position: absolute;
+  top: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  -webkit-transition: 0.1s ease;
+  -moz-transition: 0.1s ease;
+  -ms-transition: 0.1s ease;
+  -o-transition: 0.1s ease;
+  transition: 0.1s ease;
+}
+
+div.slider_prev {
+  left: 10px;
+}
+
+div.slider_next {
+  right: 10px;
+}
+
+div.slider_prev:hover,
+div.slider_next:hover {
+  background-color: #666;
+}
+
+div.slider_prev:after,
+div.slider_next:after {
+  content: "\f104";
+  font-family: FontAwesome;
+  font-size: 22px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 24px;
+  color: #fff;
+}
+
+div.slider_next:after {
+  content: "\f105";
+}
+
+/*----- スライド部 -----*/
+div.slider_container ul#slider_list {
+  width: 100%;
+  height: 340px;
+  position: relative;
+}
+
+div.slider_container ul#slider_list > li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+div.slider_container ul#slider_list > li.current {
+  z-index: 10;
+}
+
+div.slider_box_01 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+div.slider_box_01 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.slider_overlay {
+  background: url(https://pic.acg-moe.com/images/2017/09/18/wux25.png) repeat left top;
+  width: 100%;
+  height: 100%;
+  position: absolute;    box-shadow: 0 1px 6px #999898;
+  left: 0;
+  top: 0;
+}
+
+img.pr_mainpic {
+  position: relative;
+  top: 0;
+  left: 47%;
+  margin-left: -650px;
+}
+
+div.slider_container ul.work_img_box {
+  display: inline-block;
+  height: 100%;
+  font-size: 0;
+}
+
+div.slider_container ul.work_img_box li {
+  display: inline-block;
+  height: 170px;
+  width: auto;
+}
+
+div.slider_container ul.work_img_box li img {
+  height: 170px;
+  width: auto;
+}
+
+/* 背景作品サムネイルアニメーションブロック
+--------------------------------------------------------- */
+.loopslider_container {
+  -webkit-filter: blur(0px);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: alpha(opacity=0);
+  zoom: 1;
+}
+
+.loopslider {
+  height: 170px;
+  position: relative;
+}
+
+
+
+
+/* 搜索框 */
+.sousuo{
+background:rgba(255,255,255,.70);
+    width:100%; 
+	max-width:988px;height:88px; 
+	position:fixed;
+	bottom:0px;
+	margin: 0px 0px 0px 6px;
+    box-shadow:0px 0px 10px -3px #000;
+}
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+color: #636363; 
+} 
+input:-moz-placeholder, textarea:-moz-placeholder { 
+color: #636363; 
+} 
+
+.login h1 {
+  margin: -20px -20px 21px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background: #f3f3f3;
+  border-bottom: 1px solid #cfcfcf;
+  background-image: -webkit-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -moz-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: -o-linear-gradient(top, whiteffd, #eef2f5);
+  background-image: linear-gradient(to bottom, whiteffd, #eef2f5);
+  -webkit-box-shadow: 0 1px whitesmoke;
+  box-shadow: 0 1px whitesmoke;
+}
+.login p {
+  margin: 15px 0 0;
+}
+.login p:first-child {
+  margin-top: 0;
+}
+.login input[type=text], .login input[type=password] {
+max-width:956px;
+  width:100%;
+
+}
+.login p.remember_me {
+  float: left;
+  line-height: 31px;
+}
+.login p.remember_me label {
+
+  color: #777;
+  cursor: pointer;
+}
+.login p.remember_me input {
+  position: relative;
+  bottom: 1px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.login p.submit {
+  text-align: right;
+}
+
+.login-help {
+  margin: 20px 0;
+
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px #2a85a1;
+}
+.login-help a {
+  color: #cce7fa;
+  text-decoration: none;
+}
+.login-help a:hover {
+  text-decoration: underline;
+}
+
+:-moz-placeholder {
+  color: #c9c9c9 !important;
+
+}
+
+::-webkit-input-placeholder {
+  color: #ccc;
+
+}
+
+input {
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+
+}
+
+input[type=text], input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  outline: 5px solid #eff4f7;
+  -moz-outline-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+input[type=text]:focus, input[type=password]:focus {
+  border-color: #7dc9e2;
+  outline-color: #dceefc;
+  outline-offset: 0;
+}
+
+input[type=submit] {
+  padding: 0 100px;
+  height: 29px;
+  font-weight: bold;
+  color: #527881;
+  text-shadow: 0 1px #e3f1f1;
+  background: #cde5ef;
+  border: 1px solid;
+  margin-top: 4px;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 16px;
+  outline: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  background-image: -webkit-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -moz-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: -o-linear-gradient(top, #edf5f8, #cde5ef);
+  background-image: linear-gradient(to bottom, #edf5f8, #cde5ef);
+  -webkit-box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+input[type=submit]:active {
+  background: #cde5ef;
+  border-color: #9eb9c2 #b3c0c8 #b4ccce;
+  -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+/* 返回 */
+.fanhui {
+position:fixed;right:5px;overflow:hidden;z-index:10000; _position:absolute; /* for IE6 */_top:expression(documentElement.scrollTop + 300);	position:fixed;
+	right:0px;
+	bottom:46%;
+	margin:0px 10px 0px 1px;
+}
+  
+.fanhui2 {
+position:fixed;right:5px;overflow:hidden;z-index:10000; _position:absolute; /* for IE6 */_top:expression(documentElement.scrollTop + 300);	position:fixed;
+	right:0px;
+	bottom:54%;
+	margin:0px 10px 0px 1px;
+}
