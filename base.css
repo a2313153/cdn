@@ -449,7 +449,7 @@ footer {
 }
 
 .foot_sd {
-	background:url("https://acg-moe.com/foot_sd.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/foot_sd.png*/ left center no-repeat;
+	background:url("foot_sd.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/foot_sd.png*/ left center no-repeat;
 	width:340px;
 	height:201px;
 	position:relative;
@@ -527,7 +527,7 @@ footer {
 /* サブページ汎用CSS */
 
 .readybox {
-	background:url("https://acg-moe.com/ready.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/ready.png*/ left top no-repeat;
+	background:url("ready.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/ready.png*/ left top no-repeat;
 	width:300px;
 	height:300px;
 	margin:54px auto 0;
@@ -539,10 +539,10 @@ footer {
 	position: relative;
 }
 
-.head_green {background:url("https://acg-moe.com/head_green.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/head_green.jpg*/ left top repeat;}
-.head_pink {background:url("https://acg-moe.com/head_pink.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/head_pink.jpg*/ left top repeat;}
-.head_orange {background:url("https://acg-moe.com/head_orange.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/head_orange.jpg*/ left top repeat;}
-.head_purple {background:url("https://acg-moe.com/head_purple.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/head_purple.jpg*/ left top repeat;}
+.head_green {background:url("head_green.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/head_green.jpg*/ left top repeat;}
+.head_pink {background:url("head_pink.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/head_pink.jpg*/ left top repeat;}
+.head_orange {background:url("head_orange.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/head_orange.jpg*/ left top repeat;}
+.head_purple {background:url("head_purple.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/head_purple.jpg*/ left top repeat;}
 
 .subtitle {
 	width:100%;
@@ -552,12 +552,12 @@ footer {
 	overflow: hidden;
 }
 
-.sub_story {background:url("https://acg-moe.com/title_story.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_story.png*/center top no-repeat;}
-.sub_character {background:url("https://acg-moe.com/title_character.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_character.png*/center top no-repeat;}
-.sub_graphic {background:url("https://acg-moe.com/title_graphic.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_graphic.png*/center top no-repeat;}
-.sub_spec {background:url("https://acg-moe.com/title_spec.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_spec.png*/center top no-repeat;}
-.sub_download {background:url("https://acg-moe.com/title_download.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_download.png*/center top no-repeat;}
-.sub_campaign {background:url("https://acg-moe.com/title_campaign.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_campaign.png*/center top no-repeat;}
+.sub_story {background:url("title_story.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_story.png*/center top no-repeat;}
+.sub_character {background:url("title_character.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_character.png*/center top no-repeat;}
+.sub_graphic {background:url("title_graphic.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_graphic.png*/center top no-repeat;}
+.sub_spec {background:url("title_spec.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_spec.png*/center top no-repeat;}
+.sub_download {background:url("title_download.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_download.png*/center top no-repeat;}
+.sub_campaign {background:url("title_campaign.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/sub/title_campaign.png*/center top no-repeat;}
 
 .secondhead {
 	width:640px;
@@ -568,7 +568,7 @@ footer {
 /* ストーリーCSS */
 
 .story_title {
-	background:url("https://acg-moe.com/story_title.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/story/story_title.png*/ left bottom no-repeat;
+	background:url("story_title.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/story/story_title.png*/ left bottom no-repeat;
 	width:270px;
 	height:184px;
 	overflow: hidden;
@@ -577,12 +577,12 @@ footer {
 }
 
 .story_body {
-	background:url("https://acg-moe.com/story_bg.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/story/story_bg.png*/ center 54px no-repeat;
+	background:url("story_bg.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/story/story_bg.png*/ center 54px no-repeat;
 	width:100%;
 }
 
 .story_txt_01 {
-	background:url("https://acg-moe.com/story_txt_01.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/story/story_txt_01.png*/ center top no-repeat;
+	background:url("story_txt_01.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/story/story_txt_01.png*/ center top no-repeat;
 	width:100%;
 	height:842px;
 	text-indent: -9999px;
@@ -591,14 +591,14 @@ footer {
 }
 
 .story_face {
-	background:url("https://acg-moe.com/story_face.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/story/story_face.png*/ center top no-repeat;
+	background:url("story_face.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/story/story_face.png*/ center top no-repeat;
 	width:100%;
 	height:268px;
 	margin-bottom:36px;
 }
 
 .story_txt_02 {
-	background:url("https://acg-moe.com/story_txt_02.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/story/story_txt_02.png*/ center top no-repeat;
+	background:url("story_txt_02.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/story/story_txt_02.png*/ center top no-repeat;
 	width:100%;
 	height:64px;
 	text-indent: -9999px;
