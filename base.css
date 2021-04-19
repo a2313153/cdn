@@ -170,13 +170,13 @@ header {
 	transition: all 0.3s;
 }
 
-.menu_01 {background:url("https://acg-moe.com/menu_01.png") left center no-repeat;width:98px;}
-.menu_02 {background:url("https://acg-moe.com/menu_02.png") left center no-repeat;width:90px;}
-.menu_03 {background:url("https://acg-moe.com/menu_03.png") left center no-repeat;width:135px;}
-.menu_04 {background:url("https://acg-moe.com/menu_04.png") left center no-repeat;width:120px;}
-.menu_05 {background:url("https://acg-moe.com/menu_05.png") left center no-repeat;width:85px;}
-.menu_06 {background:url("https://acg-moe.com/menu_06.png") left center no-repeat;width:125px;}
-.menu_07 {background:url("https://acg-moe.com/menu_07.png") left center no-repeat;width:160px;}
+.menu_01 {background:url("menu_01.png") left center no-repeat;width:98px;}
+.menu_02 {background:url("menu_02.png") left center no-repeat;width:90px;}
+.menu_03 {background:url("menu_03.png") left center no-repeat;width:135px;}
+.menu_04 {background:url("menu_04.png") left center no-repeat;width:120px;}
+.menu_05 {background:url("menu_05.png") left center no-repeat;width:85px;}
+.menu_06 {background:url("menu_06.png") left center no-repeat;width:125px;}
+.menu_07 {background:url("menu_07.png") left center no-repeat;width:160px;}
 
 .top_menu ul li a:hover {
 	background-position:0 10px ;
@@ -185,7 +185,7 @@ header {
 #Mainvisual {
 	width:100%;
 	height:820px;
-	background:url("https://acg-moe.com/overtxt.png") center top no-repeat;
+	background:url("overtxt.png") center top no-repeat;
 	position: relative;
 }
 
@@ -264,7 +264,7 @@ header {
 
 #Index_Contents {
 	width:100%;
-	background:url("https://acg-moe.com/white_bg.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/white_bg.png*/ left top repeat;
+	background:url("white_bg.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/white_bg.png*/ left top repeat;
 	min-height: 800px;
 	padding-bottom:88px;
 }
@@ -342,7 +342,7 @@ body#Sub #Index_Contents {
 }
 
 .new {
-	background:url("https://acg-moe.com/new.png")/*tpa=http://www.miragesoft.jp/product/koiflag/topics/new.png*/ left top no-repeat;
+	background:url("new.png")/*tpa=http://www.miragesoft.jp/product/koiflag/topics/new.png*/ left top no-repeat;
 	width:58px;
 	height:58px;
 	position: absolute;
@@ -361,7 +361,7 @@ body#Sub #Index_Contents {
 }
 
 #Update_information h3 {
-	background:url("https://acg-moe.com/info_title.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/info_title.png*/ left top no-repeat;
+	background:url("info_title.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/info_title.png*/ left top no-repeat;
 	width:863px;
 	height:32px;
 	text-indent: -9999px;
@@ -371,7 +371,7 @@ body#Sub #Index_Contents {
 
 #Update_wrap {
 	margin-right:-36px;
-	background:url("https://acg-moe.com/logo_watermark.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/logo_watermark.png*/ right 36px bottom 32px no-repeat;
+	background:url("logo_watermark.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/logo_watermark.png*/ right 36px bottom 32px no-repeat;
 }
 
 .oneday {
@@ -400,7 +400,7 @@ body#Sub #Index_Contents {
 	position: absolute;
 	width:290px;
 	height:146px;
-	background:url("https://acg-moe.com/oneday_bottom.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/oneday_bottom.png*/ right bottom no-repeat;
+	background:url("oneday_bottom.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/oneday_bottom.png*/ right bottom no-repeat;
 	right:0;
 	bottom:0;
 	font-size:1.4rem;
@@ -409,7 +409,7 @@ body#Sub #Index_Contents {
 }
 
 .oneday .day_text h4 {
-	background:url("https://acg-moe.com/log_border.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/log_border.png*/ left bottom repeat-x;
+	background:url("log_border.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/log_border.png*/ left bottom repeat-x;
 	height:32px;
 	font-family: 'Sigmar One', cursive;
 	font-size:2.4rem;
