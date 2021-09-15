@@ -120,7 +120,7 @@ body#Sub #PageWrapper {
 }
 
 header {
-	background:url("https://tva1.sinaimg.cn/large/5fd2b030ly1g4ixhos6alj202a01z0sn.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/menu_bg.png*/ left top repeat;
+	background:url("https://cdn.jsdelivr.net/gh/acgku/img/cdn/5fd2b030ly1g4ixhos6alj202a01z0sn.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/menu_bg.png*/ left top repeat;
 	width:100%;
 	height:71px;
 	position: fixed;
@@ -353,7 +353,7 @@ body#Sub #Index_Contents {
 #Update_information {
 	width:936px;
 	padding:0 22px;
-	background:url("https://tva1.sinaimg.cn/large/5fd2b030gy1fnarhz8hxzj202s02s3yh.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/http://ww1.sinaimg.cn/large/5fd2b030gy1fnarhz8hxzj202s02s3yh.jpg*/ left top repeat;
+	background:url("https://cdn.jsdelivr.net/gh/acgku/img/cdn/5fd2b030gy1fnarhz8hxzj202s02s3yh.png")/*tpa=http://www.miragesoft.jp/product/koiflag/img/http://ww1.sinaimg.cn/large/5fd2b030gy1fnarhz8hxzj202s02s3yh.jpg*/ left top repeat;
 	border-radius: 15px;
 	border:10px solid #e7dbc7;
 	margin:0 auto;
