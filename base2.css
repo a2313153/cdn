@@ -120,7 +120,7 @@ body#Sub #PageWrapper {
 }
 
 header {
-	背景：网址（“https://cdn.jsdelivr.net/gh/acgku/img/cdn/5fd2b030ly1g4ixhos6alj202a01z0sn.jpg”）/*tpa=http://www.miragesoft.jp/product/koiflag/img/menu_bg。 PNG * / 左 顶部 重复;
+	background:url("https://cdn.jsdelivr.net/gh/acgku/img/cdn/5fd2b030ly1g4ixhos6alj202a01z0sn.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/mainvisual_blur.jpg*/ left top repeat;
 	width:100%;
 	height:71px;
 	position: fixed;
