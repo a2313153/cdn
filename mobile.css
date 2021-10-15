@@ -107,13 +107,13 @@ body {
 }
 
 body#Index #PageWrapper {
-	background:url("https://tva1.sinaimg.cn/large/5fd2b030gy1fnari06faxj21hc13g7lt.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/mainvisual.jpg*/ center 70px no-repeat;
+	background:url("https://cdn.jsdelivr.net/gh/a2313153/img/img/5fd2b030gy1fnari06faxj21hc13g7lt.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/mainvisual.jpg*/ center 70px no-repeat;
 	background-size:130%;
 	background-attachment: fixed;
 }
 
 body#Sub #PageWrapper {
-	background:url("https://tva1.sinaimg.cn/large/5fd2b030gy1fnari005qoj21hc13g11e.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/mainvisual_blur.jpg*/ center 70px no-repeat;
+	background:url("https://cdn.jsdelivr.net/gh/a2313153/img/img/5fd2b030gy1fnari005qoj21hc13g11e.jpg")/*tpa=http://www.miragesoft.jp/product/koiflag/img/mainvisual_blur.jpg*/ center 70px no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
 }
